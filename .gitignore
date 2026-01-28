@@ -1,0 +1,65 @@
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# =========================
+# ML / Data
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Raw data files
+*.csv
+*.xlsx
+*.parquet
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs & runtime
+# =========================
+*.log
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# =========================
+# Build / Cache
+# =========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Coverage
+# =========================
+htmlcov/
+.coverage
+
+# =========================
+# Docker
+# =========================
+*.env
