@@ -9,7 +9,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",   # local dev
-        "https://your-frontend-domain.vercel.app",  # later
+        "https://ml-project-portfolio.vercel.app",  # later
     ],
     allow_credentials=True,
     allow_methods=["*"],
